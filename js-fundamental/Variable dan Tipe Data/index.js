@@ -45,8 +45,40 @@
  * 
  *
  */
-var pi = 3.14;
-var r = 5;
+//var pi = 3.14;
+/**var r = 5;
 var t = 7;
 var luas = 2 * pi * r * (r + t);
 console.log(luas);
+
+
+//Study Case
+/**
+ * Buatlah koding untuk logika berikut:
+ * Jika umur sudah atau lebih dari 17 maka cetaklah "Bisa bikin KTP"
+ * Jika tidak maka cetak "Belum bisa bikin KTP"
+ */
+
+// let umur = 17;
+
+//if (umur >= 17) {
+    //console.log("Bisa bikin KTP");
+//}
+//else {
+//    console.log("Tidak bisa bikin KTP.");
+//} 
+
+
+let umur = 17;
+let tinggi = 120;
+
+if (umur < 17) { 
+
+    if (tinggi < 150) {
+        console.log("Tidak boleh masuk");
+    } else {
+        console.log("Boleh masuk.");
+    }
+}
+
+
