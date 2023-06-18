@@ -45,7 +45,7 @@
  * 
  *
  */
-var pi = 2;
+var pi = 3.14;
 var r = 5;
 var t = 7;
 var luas = 2 * pi * r * (r + t);
